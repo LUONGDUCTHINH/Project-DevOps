@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies
+         - name: Install dependencies
   run: |
     cd Project/base-project/backend
     npm install
