@@ -35,7 +35,11 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install
+  run: |
+    cd Project/base-project/backend
+    npm install
 
-      - name: Run tests
-        run: echo "No tests yet"
+- name: Run tests
+  run: |
+    cd Project/base-project/backend
+    echo "No tests yet"
